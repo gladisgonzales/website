@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gladis Gonzales | Behavioral economics and data science</title>
+  <meta name="description" content="Gladis Gonzales is an Assistant Professor at Loyola Andalucía University and a member of LoyolaBehLab. She studies decision-making, creativity and social networks among adolescents.">
+  <meta name="author" content="Gladis Gonzales">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14161b" media="(prefers-color-scheme: dark)">
+
+  <!-- ⚠️ Replace YOUR-USERNAME with your GitHub username (it appears 5 times in this file). -->
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+
+  <!-- Open Graph / social previews -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Gladis Gonzales">
+  <meta property="og:description" content="Assistant Professor at Loyola Andalucía University (LoyolaBehLab). Behavioral economics, social networks and adolescents.">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/">
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/assets/gladis-gonzales.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta property="profile:first_name" content="Gladis">
+  <meta property="profile:last_name" content="Gonzales">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@GladisGonzalesA">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg stroke='%237b1e2e' stroke-width='2'%3E%3Cline x1='16' y1='16' x2='5' y2='7'/%3E%3Cline x1='16' y1='16' x2='27' y2='9'/%3E%3Cline x1='16' y1='16' x2='22' y2='27'/%3E%3C/g%3E%3Ccircle cx='16' cy='16' r='7' fill='%237b1e2e'/%3E%3Ccircle cx='5' cy='7' r='3.5' fill='%237b1e2e'/%3E%3Ccircle cx='27' cy='9' r='3.5' fill='%237b1e2e'/%3E%3Ccircle cx='22' cy='27' r='3.5' fill='%237b1e2e'/%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="assets/gladis-gonzales.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gladis Gonzales",
+    "givenName": "Gladis",
+    "familyName": "Gonzales",
+    "jobTitle": "Assistant Professor",
+    "url": "https://YOUR-USERNAME.github.io/",
+    "image": "https://YOUR-USERNAME.github.io/assets/gladis-gonzales.jpg",
+    "email": "mailto:ghgonzales@uloyola.es",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Loyola Andalucía University",
+      "sameAs": "https://www.uloyola.es/"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "LoyolaBehLab",
+      "url": "https://loyolabehlab.org/"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Loyola Andalucía University" },
+      { "@type": "CollegeOrUniversity", "name": "Catholic University of Honduras" }
+    ],
+    "knowsAbout": ["Behavioral economics", "Data science", "Social networks", "Creativity", "Delay of gratification", "Adolescents"],
+    "knowsLanguage": ["es", "en"],
+    "sameAs": [
+      "https://orcid.org/0000-0001-6116-1965",
+      "https://scholar.google.com/citations?user=zqW55mgAAAAJ",
+      "https://loyolabehlab.org/members/gladis-gonzales/",
+      "https://twitter.com/GladisGonzalesA"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --paper: #ffffff;
+      --ink: #1d2433;
+      --muted: #596173;
+      --rule: #e3e5ea;
+      --wine: #7b1e2e;
+      --wine-soft: #cfa9b0;
+      --tint: #f6eef0;
+
+      --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Public Sans", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+
+      --step-0: 1.125rem;
+      --step-1: 1.35rem;
+      --step-2: 1.75rem;
+      --step-3: clamp(2.6rem, 6vw, 4rem);
+      --small: 0.9rem;
+
+      --measure: 68ch;
+      --page: 66rem;
+      --date-col: 8.5rem;
+      color-scheme: light;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --paper: #14161b;
+        --ink: #e7e8ec;
+        --muted: #a3a9b6;
+        --rule: #2c3039;
+        --wine: #e89aa6;
+        --wine-soft: #6e3f48;
+        --tint: #241c20;
+        color-scheme: dark;
+      }
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: var(--step-0);
+      line-height: 1.6;
+      font-optical-sizing: auto;
+      text-rendering: optimizeLegibility;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--wine); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+    a:hover { text-decoration-thickness: 2px; }
+    :focus-visible { outline: 3px solid var(--wine); outline-offset: 3px; border-radius: 2px; }
+
+    .skip {
+      position: absolute; left: 1rem; top: -4rem; z-index: 20;
+      background: var(--wine); color: var(--paper);
+      padding: 0.5rem 1rem; font-family: var(--sans); font-size: var(--small);
+    }
+    .skip:focus { top: 1rem; }
+
+    .wrap { max-width: var(--page); margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 2.5rem); }
+
+    /* Navigation */
+    .site-nav {
+      position: sticky; top: 0; z-index: 10;
+      background: color-mix(in srgb, var(--paper) 92%, transparent);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--rule);
+      font-family: var(--sans);
+      font-size: var(--small);
+    }
+    .site-nav .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 3.5rem; }
+    .site-nav .home { font-weight: 600; color: var(--ink); text-decoration: none; white-space: nowrap; }
+    .site-nav ul {
+      list-style: none; margin: 0 0 0 auto; padding: 0;
+      display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none;
+    }
+    .site-nav ul::-webkit-scrollbar { display: none; }
+    .site-nav li a { color: var(--muted); text-decoration: none; white-space: nowrap; padding-block: 0.4rem; display: inline-block; }
+    .site-nav li a:hover { color: var(--wine); }
+
+    /* Hero */
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 27rem);
+      gap: clamp(2rem, 5vw, 4rem);
+      align-items: center;
+      padding-block: clamp(2.5rem, 7vw, 5.5rem) clamp(2rem, 5vw, 4rem);
+    }
+    .hero h1 {
+      font-size: var(--step-3);
+      font-weight: 500;
+      line-height: 1.02;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.75rem;
+    }
+    .role { font-family: var(--sans); font-size: 1rem; color: var(--muted); margin: 0 0 1.75rem; line-height: 1.5; }
+    .role strong { color: var(--ink); font-weight: 600; }
+    .bio { max-width: 34em; margin: 0 0 1.75rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; font-family: var(--sans); font-size: var(--small); }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.6rem 1rem; border: 1px solid var(--wine); border-radius: 999px;
+      text-decoration: none; color: var(--wine); font-weight: 500;
+    }
+    .btn.primary { background: var(--wine); color: var(--paper); }
+    .btn:hover { background: var(--tint); color: var(--wine); }
+    .btn svg { width: 1em; height: 1em; flex: none; }
+
+    /* Ego network figure */
+    .ego { position: relative; margin: 0; width: 100%; max-width: 27rem; justify-self: end; }
+    .ego svg { width: 100%; height: auto; overflow: visible; }
+    .ego .portrait {
+      position: absolute;
+      width: 33.3%; aspect-ratio: 1;
+      left: 50%; top: 50%; transform: translate(-50%, -50%);
+      border-radius: 50%; object-fit: cover;
+      box-shadow: 0 0 0 4px var(--paper), 0 0 0 5.5px var(--wine);
+    }
+    .ego .tie { stroke: var(--wine-soft); stroke-width: 1.5; fill: none; }
+    .ego .tie.alter { stroke-dasharray: 3 5; }
+    .ego .node { fill: var(--wine); }
+    .ego text { font-family: var(--sans); font-size: 13.5px; fill: var(--muted); }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .ego .tie.ego-tie { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 0.9s cubic-bezier(.3,.7,.2,1) forwards; animation-delay: calc(var(--i) * 90ms + 150ms); }
+      .ego .tie.alter, .ego .node, .ego text { opacity: 0; animation: appear 0.6s ease forwards; animation-delay: calc(var(--i) * 90ms + 700ms); }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes appear { to { opacity: 1; } }
+    }
+
+    /* Sections */
+    main > section { border-top: 1px solid var(--rule); padding-block: clamp(2.5rem, 6vw, 4rem); }
+    .section-grid { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 1rem 3rem; }
+    h2 {
+      font-size: var(--step-2); font-weight: 500; line-height: 1.2;
+      margin: 0; letter-spacing: -0.01em;
+    }
+    h3 {
+      font-family: var(--sans); font-size: 1rem; font-weight: 600;
+      color: var(--muted); margin: 2.25rem 0 1rem;
+    }
+    h3:first-child { margin-top: 0.35rem; }
+    .content { max-width: var(--measure); }
+    .content > p:first-child { margin-top: 0; }
+
+    .interests { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: 1.25rem 0 0; font-family: var(--sans); font-size: var(--small); }
+    .interests li { background: var(--tint); color: var(--ink); padding: 0.3rem 0.8rem; border-radius: 999px; }
+
+    /* Publications */
+    .pubs { list-style: none; margin: 0; padding: 0; }
+    .pubs li { margin-bottom: 1.4rem; padding-left: 1.1rem; border-left: 2px solid var(--rule); }
+    .pubs li:last-child { margin-bottom: 0; }
+    .pubs .title { display: block; font-style: normal; font-size: var(--step-1); line-height: 1.3; font-weight: 500; margin-bottom: 0.2rem; }
+    .pubs .meta { display: block; color: var(--muted); font-size: 1rem; line-height: 1.5; }
+    .pubs .me { color: var(--ink); font-weight: 600; }
+    .pubs .doi { font-family: var(--sans); font-size: var(--small); margin-top: 0.35rem; display: inline-block; }
+
+    /* Dated lists (talks, experience, projects) */
+    .dated { list-style: none; margin: 0; padding: 0; }
+    .dated > li { display: grid; grid-template-columns: var(--date-col) minmax(0, 1fr); gap: 0 1.25rem; padding-block: 0.85rem; border-bottom: 1px solid var(--rule); }
+    .dated > li:first-child { padding-top: 0; }
+    .dated > li:last-child { border-bottom: 0; padding-bottom: 0; }
+    .dated time, .dated .when { font-family: var(--sans); font-size: var(--small); color: var(--muted); padding-top: 0.25rem; font-variant-numeric: tabular-nums; }
+    .dated .what { display: block; font-weight: 500; }
+    .dated .where { display: block; color: var(--muted); font-size: 1rem; line-height: 1.5; }
+    .dated .talk-title { display: block; font-style: italic; }
+
+    /* Teaching */
+    .lede { color: var(--muted); margin: 0.2rem 0 1.25rem; }
+    .courses { list-style: none; margin: 0; padding: 0; }
+    .courses li { padding-block: 0.7rem; border-bottom: 1px solid var(--rule); }
+    .courses li:first-child { padding-top: 0; }
+    .courses li:last-child { border-bottom: 0; }
+    .courses .name { display: block; font-weight: 500; }
+    .courses .years { font-family: var(--sans); font-size: var(--small); color: var(--muted); font-variant-numeric: tabular-nums; }
+
+    .two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 3rem; }
+    .two-col h3 { margin-top: 0.35rem; }
+    .two-col .dated > li { grid-template-columns: 1fr; }
+    .two-col .dated .when { padding-top: 0; }
+
+    dl.skills { margin: 0; display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 0.6rem 1.25rem; }
+    dl.skills dt { font-family: var(--sans); font-size: var(--small); color: var(--muted); padding-top: 0.25rem; }
+    dl.skills dd { margin: 0; }
+
+    .contact-list { list-style: none; margin: 0; padding: 0; font-family: var(--sans); font-size: 1rem; }
+    .contact-list li { display: flex; gap: 0.75rem; align-items: center; padding-block: 0.4rem; overflow-wrap: anywhere; }
+    .contact-list svg { width: 1.1rem; height: 1.1rem; color: var(--muted); flex: none; }
+    .note { color: var(--muted); font-size: 1rem; margin-top: 1.25rem; }
+
+    footer { border-top: 1px solid var(--rule); padding-block: 2rem 3rem; font-family: var(--sans); font-size: var(--small); color: var(--muted); }
+    footer p { margin: 0; }
+
+    @media (max-width: 52rem) {
+      .hero { grid-template-columns: 1fr; }
+      .ego { order: -1; justify-self: center; max-width: 23rem; }
+      .section-grid { grid-template-columns: 1fr; }
+      .two-col { grid-template-columns: 1fr; }
+      .two-col > div + div { margin-top: 2.25rem; }
+      .site-nav .home { display: none; }
+      .site-nav ul { margin-left: 0; gap: 1rem; }
+    }
+    @media (max-width: 34rem) {
+      :root { --step-0: 1.0625rem; }
+      .dated > li { grid-template-columns: 1fr; }
+      .dated time, .dated .when { padding-top: 0; }
+      .ego text { font-size: 15px; }
+    }
+
+    @media print {
+      :root { --paper: #fff; --ink: #000; --muted: #444; --wine: #000; --rule: #ccc; }
+      .site-nav, .ego, .actions, .skip { display: none !important; }
+      .hero { grid-template-columns: 1fr; padding-block: 0 1rem; }
+      main > section { padding-block: 1rem; break-inside: avoid-page; }
+      a { color: inherit; text-decoration: none; }
+      .pubs .doi::after { content: " (" attr(href) ")"; }
+      body { font-size: 11pt; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <nav class="site-nav" aria-label="Sections">
+    <div class="wrap">
+      <a class="home" href="#top">Gladis Gonzales</a>
+      <ul>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="wrap hero" id="top">
+    <div>
+      <h1>Gladis Gonzales</h1>
+      <p class="role">
+        <strong>Assistant Professor</strong>, Loyola Andalucía University<br>
+        Member of <a href="https://loyolabehlab.org/members/gladis-gonzales/">LoyolaBehLab</a>
+      </p>
+      <!-- ✏️ Draft bio written from the CV. Please review and adjust it in your own words. -->
+      <p class="bio">
+        I study how adolescents make decisions and how the social networks around them shape those decisions.
+        My work combines behavioral economics, experimental tasks and social network data, with fieldwork
+        in Spain and El Salvador, on topics such as delay of gratification, consistency of choices, creativity,
+        and the formation of friendships and enmities.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="assets/CV_Gladis_Gonzales_ENG_2026.pdf" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Download CV (PDF)
+        </a>
+        <a class="btn" href="mailto:ghgonzales@uloyola.es">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          Email me
+        </a>
+      </div>
+    </div>
+
+    <figure class="ego">
+      <svg viewBox="0 0 480 420" aria-hidden="true" focusable="false">
+        <!-- ties between alters -->
+        <line class="tie alter" style="--i:1" x1="96"  y1="88"  x2="40"  y2="214"/>
+        <line class="tie alter" style="--i:2" x1="388" y1="80"  x2="438" y2="222"/>
+        <line class="tie alter" style="--i:3" x1="438" y1="222" x2="372" y2="352"/>
+        <line class="tie alter" style="--i:4" x1="112" y1="348" x2="40"  y2="214"/>
+        <!-- ego ties -->
+        <line class="tie ego-tie" pathLength="1" style="--i:0" x1="240" y1="210" x2="96"  y2="88"/>
+        <line class="tie ego-tie" pathLength="1" style="--i:1" x1="240" y1="210" x2="388" y2="80"/>
+        <line class="tie ego-tie" pathLength="1" style="--i:2" x1="240" y1="210" x2="438" y2="222"/>
+        <line class="tie ego-tie" pathLength="1" style="--i:3" x1="240" y1="210" x2="372" y2="352"/>
+        <line class="tie ego-tie" pathLength="1" style="--i:4" x1="240" y1="210" x2="112" y2="348"/>
+        <line class="tie ego-tie" pathLength="1" style="--i:5" x1="240" y1="210" x2="40"  y2="214"/>
+        <!-- alters -->
+        <circle class="node" style="--i:0" cx="96"  cy="88"  r="7"/>
+        <circle class="node" style="--i:1" cx="388" cy="80"  r="7"/>
+        <circle class="node" style="--i:2" cx="438" cy="222" r="7"/>
+        <circle class="node" style="--i:3" cx="372" cy="352" r="7"/>
+        <circle class="node" style="--i:4" cx="112" cy="348" r="7"/>
+        <circle class="node" style="--i:5" cx="40"  cy="214" r="7"/>
+        <text style="--i:0" x="96"  y="66"  text-anchor="middle">Behavioral economics</text>
+        <text style="--i:1" x="388" y="58"  text-anchor="middle">Social networks</text>
+        <text style="--i:2" x="438" y="252" text-anchor="middle">Creativity</text>
+        <text style="--i:3" x="372" y="382" text-anchor="middle">Adolescents</text>
+        <text style="--i:4" x="112" y="378" text-anchor="middle">Delay of gratification</text>
+        <text style="--i:5" x="8"   y="246" text-anchor="start">Choice consistency</text>
+      </svg>
+      <img class="portrait" src="assets/gladis-gonzales.jpg" alt="Portrait of Gladis Gonzales" width="600" height="600">
+    </figure>
+  </header>
+
+  <main id="main">
+    <section id="research" aria-labelledby="research-h">
+      <div class="wrap section-grid">
+        <h2 id="research-h">Research</h2>
+        <div class="content">
+          <h3>Published papers</h3>
+          <ol class="pubs" reversed>
+            <li>
+              <cite class="title">Inconsistent choices among adolescents in El Salvador</cite>
+              <span class="meta"><span class="me">Gonzales, G.</span>, &amp; Gaviria, A. (2025). <i>Latin American Economic Review</i>, 34, 1–46.</span>
+              <a class="doi" href="https://doi.org/10.60758/laer.v34i.326">doi:10.60758/laer.v34i.326</a>
+            </li>
+            <li>
+              <cite class="title">Towards a general method to classify personal network structures</cite>
+              <span class="meta">González-Casado, M. A., <span class="me">Gonzales, G.</span>, Molina, J. L., &amp; Sánchez, A. (2024). <i>Social Networks</i>, 78, 265–278.</span>
+              <a class="doi" href="https://doi.org/10.1016/j.socnet.2024.03.004">doi:10.1016/j.socnet.2024.03.004</a>
+            </li>
+          </ol>
+
+          <h3>Under review</h3>
+          <ol class="pubs">
+            <li>
+              <cite class="title">Delay of gratification and work-ethics: Evidence from Spanish adolescents</cite>
+              <span class="meta"><span class="me">Gonzales, G.</span>, Alfonso, A., &amp; Ramos-Sosa, M. P. (2025).</span>
+            </li>
+          </ol>
+
+          <h3>Work in progress</h3>
+          <ol class="pubs">
+            <li>
+              <cite class="title">Exploring the relationship between school-based social networks and creativity in Spanish adolescents</cite>
+              <span class="meta"><span class="me">Gonzales, G.</span>, Hernán-González, R., &amp; Kovářík, J. (2025). Mimeo.</span>
+            </li>
+            <li>
+              <cite class="title">Observable and unobservable characteristics in friendship and enmity formation</cite>
+              <span class="meta">Brañas-Garza, P., Ductor, L., <span class="me">Gonzales, G.</span>, &amp; Kovářík, J. (2024). Mimeo.</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" aria-labelledby="teaching-h">
+      <div class="wrap section-grid">
+        <h2 id="teaching-h">Teaching</h2>
+        <div class="content">
+          <p class="lede">Quantitative Methods Department, Loyola Andalucía University.</p>
+          <ul class="courses">
+            <li><span class="name">Programming for Data Analysis I: Algorithms and Scripts</span><span class="years">2025–26, 2026–27</span></li>
+            <li><span class="name">Programming for Data Analysis II: Tools, Environments and Languages</span><span class="years">2025–26, 2026–27</span></li>
+            <li><span class="name">Databases</span><span class="years">2024–25, 2025–26, 2026–27</span></li>
+            <li><span class="name">Coordinator, Final Degree Project (TFG), Data and Business Analytics</span><span class="years">2025–26, 2026–27</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="talks" aria-labelledby="talks-h">
+      <div class="wrap section-grid">
+        <h2 id="talks-h">Presentations and seminars</h2>
+        <div class="content">
+          <ol class="dated" reversed>
+            <li>
+              <time datetime="2026-06">Jun 2026</time>
+              <div>
+                <span class="talk-title">Delay of gratification and performance in a creative task: Evidence from Spanish adolescents</span>
+                <span class="where">15th SEET Workshop (Southern Europe Experimental Team’s Meeting). Universidad Pablo de Olavide, LoyolaBehLab, Universidad Internacional de Andalucía, Universidad de España, Spain.</span>
+              </div>
+            </li>
+            <li>
+              <time datetime="2025-06">Jun 2025</time>
+              <div>
+                <span class="talk-title">Observable and unobservable characteristics in friendship and enmity formation</span>
+                <span class="where">BiNoMa Workshop on Economics of Networks. University of Granada, Spain.</span>
+              </div>
+            </li>
+            <li>
+              <time datetime="2025-04">Apr 2025</time>
+              <div>
+                <span class="talk-title">Observable and unobservable characteristics in friendship and enmity formation</span>
+                <span class="where">14th SEET Workshop (Southern Europe Experimental Team’s Meeting). Burgundy School of Business, France.</span>
+              </div>
+            </li>
+            <li>
+              <time datetime="2025-01">Jan 2025</time>
+              <div>
+                <span class="talk-title">Creativity, social networks, abilities, and economic preferences</span>
+                <span class="where">Laboratory for Experimentation in Social Sciences and Behavioral Analysis (LESSAC). Burgundy School of Business, France.</span>
+              </div>
+            </li>
+            <li>
+              <time datetime="2024-06">Jun 2024</time>
+              <div>
+                <span class="talk-title">Inconsistent choices among adolescents in El Salvador</span>
+                <span class="where">Market, Cooperation and Votes. Universidad Carlos III de Madrid, Spain.</span>
+              </div>
+            </li>
+            <li>
+              <time datetime="2023-10">Oct 2023</time>
+              <div>
+                <span class="talk-title">Data mining to analyse divergent thinking through Guilford’s Alternative Uses Task</span>
+                <span class="where">IV Conference on Engineering and Architecture. Universidad Centroamericana (UCA), El Salvador.</span>
+              </div>
+            </li>
+            <li>
+              <time datetime="2022-12">Dec 2022</time>
+              <div>
+                <span class="talk-title">Analysis of divergent thinking in adolescents in El Salvador: A methodological proposal</span>
+                <span class="where">V AJICEDE Conference. Loyola Andalucía University, Spain.</span>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-h">
+      <div class="wrap section-grid">
+        <h2 id="projects-h">Research projects</h2>
+        <div class="content">
+          <ul class="dated">
+            <li>
+              <span class="when">2026–2028</span>
+              <div>
+                <span class="what">Predicting Bullying in Schools (PBiS)</span>
+                <span class="where">PID2024-156629NB-I00. State Research Agency (AEI), Spain. PIs: Pablo Brañas and Antonio Cabrales.</span>
+              </div>
+            </li>
+            <li>
+              <span class="when">2023–2026</span>
+              <div>
+                <span class="what">Sustainable Welfare</span>
+                <span class="where">HORIZON-101095175. European Research Executive Agency. PI: Ció Patxot. Co-PI: Pablo Brañas.</span>
+              </div>
+            </li>
+            <li>
+              <span class="when">2022–2024</span>
+              <div>
+                <span class="what">Decisions, Education, Networks and Teenagers</span>
+                <span class="where">PID2021-126892NB-I00. Spanish Ministry of Science and Innovation. PIs: Pablo Brañas and Antonio Cabrales.</span>
+              </div>
+            </li>
+            <li>
+              <span class="when">2021–2022</span>
+              <div>
+                <span class="what">Social Integration and Cognitive Skills in El Salvador</span>
+                <span class="where">AACID-2021UI004. Andalusian Agency for International Development Cooperation. PI: Pablo Brañas.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" aria-labelledby="cv-h">
+      <div class="wrap section-grid">
+        <h2 id="cv-h">Education and experience</h2>
+        <div class="two-col">
+          <div>
+            <h3>Education</h3>
+            <ul class="dated">
+              <li>
+                <span class="when">2022–2025</span>
+                <div><span class="what">PhD in Data Science (Behavioral Economics)</span><span class="where">Loyola Andalucía University, Spain</span></div>
+              </li>
+              <li>
+                <span class="when">2021–2022</span>
+                <div><span class="what">MRes in Quantitative Social Sciences</span><span class="where">Loyola Andalucía University, Spain</span></div>
+              </li>
+              <li>
+                <span class="when">2008–2014</span>
+                <div><span class="what">Computer Science Engineering</span><span class="where">Catholic University of Honduras</span></div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Experience</h3>
+            <ul class="dated">
+              <li>
+                <span class="when">2025–present</span>
+                <div><span class="what">Assistant Professor</span><span class="where">LoyolaBehLab, Loyola Andalucía University, Spain</span></div>
+              </li>
+              <li>
+                <span class="when">2023–2025</span>
+                <div><span class="what">Research Assistant</span><span class="where">LoyolaBehLab, Loyola Andalucía University, Spain</span></div>
+              </li>
+              <li>
+                <span class="when">2022–2023</span>
+                <div><span class="what">Field Coordinator</span><span class="where">Fe y Alegría and Fundación ETEA, El Salvador</span></div>
+              </li>
+              <li>
+                <span class="when">2020–2022</span>
+                <div><span class="what">Impact Evaluation Unit Coordinator</span><span class="where">Asociación PILARH, Honduras</span></div>
+              </li>
+              <li>
+                <span class="when">2015–2020</span>
+                <div><span class="what">IT Manager</span><span class="where">Asociación PILARH, Honduras</span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-h">
+      <div class="wrap section-grid">
+        <h2 id="skills-h">Skills</h2>
+        <dl class="skills content">
+          <dt>Languages</dt>
+          <dd>Spanish (native), English (fluent)</dd>
+          <dt>Software</dt>
+          <dd>R (RStudio), Python, Stata, SPSS, LaTeX, KNIME, Weka, GeneXus, C++, Visual Basic</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-h">
+      <div class="wrap section-grid">
+        <h2 id="contact-h">Contact</h2>
+        <div class="content">
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <a href="mailto:ghgonzales@uloyola.es">ghgonzales@uloyola.es</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#a6ce39"/><path fill="#fff" d="M8.1 17.6H6.6V7.4h1.5v10.2Zm2.2-10.2h4c3.8 0 5.5 2.7 5.5 5.1 0 2.6-2.1 5.1-5.5 5.1h-4V7.4Zm1.5 8.9h2.4c3.4 0 4.2-2.6 4.2-3.8 0-2-1.3-3.8-4.1-3.8h-2.5v7.6ZM8.4 5.3a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>
+              <a href="https://orcid.org/0000-0001-6116-1965" aria-label="ORCID iD">https://orcid.org/0000-0001-6116-1965</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5Z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/><path d="M22 9v6"/></svg>
+              <a href="https://scholar.google.com/citations?user=zqW55mgAAAAJ">Google Scholar profile</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/></svg>
+              <a href="https://loyolabehlab.org/members/gladis-gonzales/">LoyolaBehLab profile</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.8L22 21h-6.3l-4.9-6.4L5.2 21H2.1l7.3-8.3L1.8 3h6.4l4.4 5.9L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.5l11.2 14.5Z"/></svg>
+              <a href="https://x.com/GladisGonzalesA">@GladisGonzalesA on X</a>
+            </li>
+          </ul>
+          <p class="note">References available on request.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© 2026 Gladis Gonzales. Last updated October 2026.</p>
+    </div>
+  </footer>
+</body>
+</html>
